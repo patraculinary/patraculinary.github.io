@@ -66555,7 +66555,7 @@ vH:function(a,b){var s=0,r=P.J(t.Vf),q,p=this,o,n,m,l,k,j
 var $async$vH=P.F(function(c,d){if(c===1)return P.G(d,r)
 while(true)switch(s){case 0:m=t.X
 l=C.v.cI(P.a5(["whatsapp",a,"password",b],m,t.z))
-k=P.a5(["Content-Type","Application/json"],m,m)
+k=P.a5(["Content-Type","Application/json","Access-Control-Allow-Origin","*"],m,m)
 s=3
 return P.U(p.a.jA("POST",$.atU(),k,l,null),$async$vH)
 case 3:j=d
